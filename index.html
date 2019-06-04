@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title></title>
+</head>
+<body>
+  <div>
+  	<h1 class="text-success">Все товары по 3000 рублей</h1>
+  	<div class="summa"><h3 >Итого:</h3></div>
+
+	<div class=" d-flex">
+		<div class="col-3">
+			<img src="img1.jpg" class="w-75">
+			<h5>3000 руб</h5>
+			<button class="bg-success btn-lg bib">Купить SONY</button>
+			</div>
+
+		<div class="col-3">
+			<img src="img2.jpg" class="w-100">
+			<h5>3000 руб</h5>
+			<button class="bg-success btn-lg bob">Купить JBL</button>
+			</div>
+
+		<div class="col-3">
+			<img src="img3.jpg" class="w-100">
+			<h5>3000 руб</h5>
+			<button class="bg-success btn-lg bab">Купить JAYS</button>
+			</div>
+
+		<div class="col-3">
+			<img src="img4.jpg" class="w-100">
+			<h5>3000 руб</h5>
+			<button class="bg-success btn-lg bub">Купить NONAME</button>
+		</div>
+
+
+
+	</div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript">
+	let summa = 0
+ document.querySelector(".bib").onclick = function(){
+ 	document.querySelector(".summa").innerHTML=summa=summa+3000
+ }
+
+ document.querySelector(".bob").onclick = function(){
+ 	document.querySelector(".summa").innerHTML=summa=summa+3000
+ }
+
+ document.querySelector(".bab").onclick = function(){
+ 	document.querySelector(".summa").innerHTML=summa=summa+3000
+ }
+
+ document.querySelector(".bub").onclick = function(){
+ 	document.querySelector(".summa").innerHTML=summa=summa+3000
+ }
+</script>
+</body>
+</html>
